@@ -91,7 +91,6 @@ h3 {
 .navegacion__enlace:hover {
     color: var(--secundario)
 }
-
 /* ----- GRID ----- */
 .grid {
     display: grid;
@@ -103,7 +102,6 @@ h3 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
 /* ------ PRODUCTOS ------ */
 .producto{
     background-color: var(--primarioOscuro);
@@ -123,7 +121,6 @@ h3 {
     text-align: center;
     line-height: 1.2;
 }
-
 /* ----- GRAFICOS ----- */
 .grafico{
     min-height: 30rem;
@@ -131,7 +128,6 @@ h3 {
     background-size: cover;
     grid-column: 1/3;
 }
-
 .grafico--camisas {
     grid-row: 2/3;
     background-image: url(../img/grafico1.jpg);
@@ -139,7 +135,6 @@ h3 {
 .grafico--node {
     background-image: url(../img/grafico2.jpg);
     grid-row: 8/9;
-
 }
 @media (min-width: 768px ) {
     .grafico--node {
@@ -147,66 +142,49 @@ h3 {
         grid-column: 2/4;
     }
 }
-
 /* ----- NOSOTROS ----- */
 .nosotros {
     display: grid;
     grid-template-rows: (2, auto);
 }
-
-
 @media (min-width: 768px) {
     .nosotros {
-
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-    
+        column-gap: 2rem;   
     }
 }
-
 .nosotros__imagen {
     grid-row: 1/2;
 }
-
 @media (min-width: 768px) {
     .nosotros__imagen {
         grid-column: 2/3;
     }
 }
-
-
 /* ----- BLOQUES ----- */
-
 .bloques {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-
 @media (min-width: 768px) {
     .bloques {
         grid-template-columns: repeat(4,1fr);
-    }
-    
+    }    
 }
-
 .bloque {
     text-align: center;
 }
-
 .bloque__imagen {
     width: 100%;
 }
-
 .bloque__titulo {
     margin: 0;
 }
-
 /* ----- PRENDAS ----- */
 .prenda {
     padding: 2rem;
 }
-
 @media (min-width: 768px) {
     .prenda {
         display: grid;
@@ -214,16 +192,12 @@ h3 {
         gap: 2rem;
     }
 }
-
 .prenda__contenido {
     text-align: center;
-
 }
-
 .prenda__descripcion {
     text-align: justify;
 }
-
 ul,
 li {
     color: var(--blanco);
@@ -238,7 +212,6 @@ li {
         grid-template-columns: 1fr;
     }
 }
-
 .prenda__tallas,
 .prenda__colores {
     display: grid;
@@ -246,40 +219,34 @@ li {
     gap: 2rem;
     text-align: center;
 }
-
-
-
-
 .prenda__color {
     display: flex;
     gap: 1rem;
     justify-content: center;
     text-align: center;
 }
-
 .color {
     width: 8rem;
 }
 .negro {
-    width: 8rem;
+    width: 20px;
     color: black;
     background-color: black;
 }
 .lila {
-    width: 8rem;
+    width: 20px;
     color: violet;
     background-color: violet;
 }
 .celeste {
-    width: 8rem;
+    width: 20px;
     color: skyblue;
     background-color: skyblue;
 }
 .blanco {
-    width: 8rem;
+    width: 20px;
     background-color: white;
 }
-
 .boton {
     display: flex;
     justify-content: space-evenly;
@@ -293,7 +260,6 @@ li {
     padding: 1rem;
     font-size: 2rem;
 }
-
 .boton:hover {
     background-color: var(--secundarioOscuro);
 }
